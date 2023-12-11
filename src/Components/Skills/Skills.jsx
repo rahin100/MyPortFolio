@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <Container>
       <div className="mb-[80px]">
-        <h2 className="text-4xl lg:text-5xl font-semibold text-white text-center mb-4 lg:mb-4">
+        <h2 className="text-4xl lg:text-5xl font-semibold text-white text-center mb-4 lg:mb-6">
           Skills
         </h2>
         <div className="lg:w-[650px] md:w-[400px] w-[250px] mx-auto">
