@@ -3,7 +3,7 @@ import Container from "../Container/Container";
 const Navbar = () => {
   return (
     <Container>
-      <div className="relative">
+      <div className="">
         <div className="navbar bg-[#100c08]">
           <div className="navbar-start">
             <div className="dropdown">
