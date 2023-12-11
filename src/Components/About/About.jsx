@@ -5,8 +5,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 const About = () => {
   return (
     <Container>
-      <div className="bg-[#060606] p-5 mb-[80px]">
-        <h2 className="text-4xl lg:text-5xl font-semibold text-white text-center mb-4 lg:mb-3">
+      <div className="bg-[#060606] mb-[80px]">
+        <h2 className="text-4xl lg:text-5xl font-semibold text-white text-center mb-4 lg:mb-3 pt-8">
           About Me
         </h2>
         <h4 className="text-2xl lg:text-2xl text-gray-500 text-center mb-2 lg:mb-2">

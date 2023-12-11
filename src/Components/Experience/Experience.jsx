@@ -8,7 +8,7 @@ const Experience = () => {
         <h2 className="text-4xl lg:text-5xl font-semibold text-white text-center mb-4 lg:mb-8">
           Experience
         </h2>
-        <div className="flex flex-col lg:flex-row gap-6 items-center justify-center">
+        <div className="flex flex-col gap-1 items-center justify-center">
           <div className="w-full md:w-[500px] lg:w-[600px] h-[280px]">
             <img
               src="https://utsavghimire.com.np/static/media/experience.69de8cd1.jpg"
