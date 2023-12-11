@@ -1,10 +1,10 @@
-
+import Container from "../Container/Container";
 
 const Navbar = () => {
   return (
-    
+    <Container>
       <div className="relative">
-        <div className="navbar bg-[#100c08] fixed">
+        <div className="navbar bg-[#100c08]">
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -79,7 +79,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    
+    </Container>
   );
 };
 
