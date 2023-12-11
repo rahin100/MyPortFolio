@@ -1,4 +1,5 @@
 import Container from "../Container/Container";
+import { FaPhoneAlt } from "react-icons/fa";
 
 /* eslint-disable react/no-unescaped-entities */
 const About = () => {
@@ -26,7 +27,7 @@ const About = () => {
               <h4 className="text-2xl lg:text-5xl text-white mb-4 lg:mb-8">
                 Get to know me!
               </h4>
-              <p className="text-base lg:text-xl font-medium text-white mb-6 lg:mb-10 lg:text-left text-center">
+              <p className="text-base lg:text-xl font-medium text-white mb-6 lg:mb-10 lg:text-left">
                 My name is Rahin Islam. I completed my BSc in Computer Science
                 and Engineering from Eastern University in Dhaka, Bangladesh. I
                 acquired my web development skills from a renowned company, and
@@ -35,8 +36,8 @@ const About = () => {
                 the success of the overall product. Explore some of my work in
                 the Projects section.
               </p>
-              <button className="btn btn-primary bg-gradient-to-r from-cyan-500 to-blue-500 border-none text-medium text-[16px]">
-                Contact Me
+              <button className="btn btn-primary text-white bg-gradient-to-r from-cyan-500 to-blue-500 border-none text-medium text-[16px]">
+              <FaPhoneAlt className="text-white text-[16px]" /> Contact Me 
               </button>
             </div>
           </div>

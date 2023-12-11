@@ -26,10 +26,10 @@ const Banner = () => {
             <a
               href="https://drive.google.com/file/d/1Iv_sq3kjKsD55m05SDnTruZyvhyIHoqK/view?usp=sharing"
               download
-              className="btn btn-primary bg-gradient-to-r from-cyan-500 to-blue-500 border-none text-medium text-[16px]"
+              className="btn btn-primary text-white bg-gradient-to-r from-cyan-500 to-blue-500 border-none text-medium text-[16px]"
             >
-              Download Resume{" "}
-              <MdDownloadForOffline className="text-white text-[16px]" />{" "}
+              Download Resume
+              <MdDownloadForOffline className="text-white text-[16px]" />
             </a>
           </div>
         </div>
