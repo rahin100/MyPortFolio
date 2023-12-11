@@ -27,18 +27,14 @@ const Contact = () => {
 
   return (
     <Container>
-      <div>
-        <h2 className="text-4xl lg:text-5xl font-semibold text-white text-center mb-2 lg:mb-2">
+      <div className="mb-[80px]">
+        <h2 className="text-4xl lg:text-5xl font-semibold text-white text-center">
           Contact
         </h2>
-        <h4 className="text-2xl lg:text-2xl text-gray-500 text-center mb-2 lg:mb-[30px]">
-          Feel free to Contact me by submitting the form below and I will get
-          back to you as soon as possible
-        </h4>
         <div>
           <div className="">
             <div className="flex items-center justify-center">
-              <div className="bg-[#100c08] w-[1100px] p-8 rounded-lg shadow-lg">
+              <div className="bg-[#100c08] w-[1100px] rounded-lg shadow-lg">
                 <form ref={form} onSubmit={sendEmail} className="space-y-4">
                   <div className="form-control">
                     <label className="label">

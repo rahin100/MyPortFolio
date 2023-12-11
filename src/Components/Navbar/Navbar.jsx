@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <Container>
       <div className="">
-        <div className="navbar bg-[#100c08]">
+        <div className="navbar bg-[#060606]">
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -44,6 +44,9 @@ const Navbar = () => {
                   <a href="#skills">Skills</a>
                 </li>
                 <li className="text-[18px] text-white font-medium capitalize hover:scale-105 duration-150">
+                  <a href="#experience">Experience</a>
+                </li>
+                <li className="text-[18px] text-white font-medium capitalize hover:scale-105 duration-150">
                   <a href="#projects">Projects</a>
                 </li>
                 <li className="text-[18px] text-white font-medium capitalize hover:scale-105 duration-150">
@@ -68,6 +71,9 @@ const Navbar = () => {
               </li>
               <li className="text-[18px] text-white font-medium capitalize hover:scale-105 duration-150">
                 <a href="#skills">Skills</a>
+              </li>
+              <li className="text-[18px] text-white font-medium capitalize hover:scale-105 duration-150">
+                <a href="#experience">Experience</a>
               </li>
               <li className="text-[18px] text-white font-medium capitalize hover:scale-105 duration-150">
                 <a href="#projects">Projects</a>

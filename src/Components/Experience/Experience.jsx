@@ -7,6 +7,9 @@ const Experience = () => {
         <h2 className="text-4xl lg:text-5xl font-semibold text-white text-center mb-4 lg:mb-4">
           Experience
         </h2>
+        <div>
+            
+        </div>
       </div>
     </Container>
   );
