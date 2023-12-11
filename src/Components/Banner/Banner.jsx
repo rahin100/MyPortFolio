@@ -2,7 +2,9 @@
 import Container from "../Container/Container";
 import { MdDownloadForOffline } from "react-icons/md";
 
+
 const Banner = () => {
+  
   return (
     <Container>
       <div
@@ -24,8 +26,8 @@ const Banner = () => {
             </p>
             {/* <button className="btn btn-primary"></button> */}
             <a
-              href="https://drive.google.com/file/d/1Iv_sq3kjKsD55m05SDnTruZyvhyIHoqK/view?usp=sharing"
-              download
+              href=""
+              download ={"Resume.pdf"}
               className="btn btn-primary text-white bg-gradient-to-r from-cyan-500 to-blue-500 border-none text-medium text-[16px]"
             >
               Download Resume
