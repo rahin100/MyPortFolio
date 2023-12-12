@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import Container from "../Container/Container";
 import { MdDownloadForOffline } from "react-icons/md";
+import Resume from "../../../public/Resume.pdf"
 
 
 const Banner = () => {
-  
   return (
     <Container>
       <div
@@ -26,8 +26,8 @@ const Banner = () => {
             </p>
             {/* <button className="btn btn-primary"></button> */}
             <a
-              href=""
-              download ={"Resume.pdf"}
+              href={Resume}
+              download ="Resume"
               className="btn btn-primary text-white bg-gradient-to-r from-cyan-500 to-blue-500 border-none text-medium text-[16px]"
             >
               Download Resume

@@ -6,12 +6,14 @@ import Experience from "../Components/Experience/Experience";
 import Footer from "../Components/Footer/Footer";
 import Projects from "../Components/Projects/Projects";
 import Skills from "../Components/Skills/Skills";
+import SocialLinks from "../Components/SocialLinks/SocialLinks";
 
 
 const Home = () => {
     return (
         <div id="home">
             <Banner></Banner>
+            <SocialLinks></SocialLinks>
             <About></About>
             <Education></Education>
             <Skills></Skills>
