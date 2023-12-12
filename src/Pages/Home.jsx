@@ -10,7 +10,7 @@ import Skills from "../Components/Skills/Skills";
 
 const Home = () => {
     return (
-        <div >
+        <div id="home">
             <Banner></Banner>
             <About></About>
             <Education></Education>

@@ -4,25 +4,25 @@ import Container from "../Container/Container";
 const Experience = () => {
   return (
     <Container>
-      <div className="mb-[80px]">
+      <div id="experience" className="mb-[80px]">
         <h2 className="text-4xl lg:text-5xl font-semibold text-white text-center mb-4 lg:mb-8">
           Experience
         </h2>
-        <div className="flex flex-col gap-1 items-center justify-center">
-          <div className="w-full md:w-[500px] lg:w-[600px] h-[280px]">
+        <div className="flex flex-col gap-1 items-center justify-center relative">
+          <div className="w-full md:w-[600px] lg:w-[1240px] h-[530px]">
             <img
               src="https://utsavghimire.com.np/static/media/experience.69de8cd1.jpg"
               className="w-full h-full object-cover"
               alt="Learning Experience"
             ></img>
           </div>
-          <div className="collapse collapse-plus w-full max-w-[600px] bg-base-200 mt-4">
+          <div className="collapse collapse-plus w-full lg:w-[800px] md:w-[400px] bg-base-200 mt-4 absolute">
             <input type="radio" name="my-accordion-3" />
-            <div className="collapse-title text-xl font-medium text-white bg-[#060606] border-none">
+            <div className="collapse-title text-xl font-medium text-white bg-[#060606]">
               Learning Experience (2023-Present)
             </div>
             <div className="collapse-content p-4">
-              <p className=" text-[16px] text-medium ">
+              <p className=" text-[16px] text-medium">
                 In the last few months, I've had a generally positive
                 experience. I've learned to appreciate the value of time. It has
                 been essential to work on projects regularly. When errors arise

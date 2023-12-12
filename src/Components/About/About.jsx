@@ -3,9 +3,15 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 /* eslint-disable react/no-unescaped-entities */
 const About = () => {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <Container>
-      <div className="bg-[#060606] mb-[80px]">
+      <div id="about" className="bg-[#060606] mb-[80px]">
         <h2 className="text-4xl lg:text-5xl font-semibold text-white text-center mb-4 lg:mb-3 pt-8">
           About Me
         </h2>
@@ -14,7 +20,7 @@ const About = () => {
         </h4>
         <div>
           <div className="hero min-h-screen ">
-            <div className="hero-content flex-col lg:flex-row-reverse">
+            <div className="hero-content flex-col lg:flex-row-reverse gap-10">
               <div className="">
                 <img
                   src="https://i.ibb.co/6X2zr2Q/274562127-2316927051782474-27322.jpg"
@@ -32,11 +38,13 @@ const About = () => {
                   and Engineering from Eastern University in Dhaka, Bangladesh.
                   I acquired my web development skills from a renowned company,
                   and now I am a Frontend Web Developer specializing in building
-                  the front-end of websites and web applications that contribute
-                  to the success of the overall product. Explore some of my work
-                  in the Projects section.
+                  the front-end of websites.Explore some of my work in the
+                  Projects section.
                 </p>
-                <button className="btn btn-primary text-white bg-gradient-to-r from-cyan-500 to-blue-500 border-none text-medium text-[16px]">
+                <button
+                  onClick={scrollToContact}
+                  className="btn btn-primary text-white bg-gradient-to-r from-cyan-500 to-blue-500 border-none text-medium text-[16px]"
+                >
                   <FaPhoneAlt className="text-white text-[16px]" /> Contact Me
                 </button>
               </div>

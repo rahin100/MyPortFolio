@@ -27,7 +27,7 @@ const Contact = () => {
 
   return (
     <Container>
-      <div className="mb-[80px]">
+      <div id="contact" className="mb-[80px]">
         <h2 className="text-4xl lg:text-5xl font-semibold text-white text-center">
           Contact
         </h2>
