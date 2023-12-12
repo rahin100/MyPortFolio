@@ -3,7 +3,7 @@ import Container from "../Container/Container";
 const Navbar = () => {
   return (
     <Container>
-      <div className="">
+      <div className="animate__animated animate__bounceInDown">
         <div className="navbar bg-[#060606]">
           <div className="navbar-start">
             <div className="dropdown">

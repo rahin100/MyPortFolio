@@ -3,7 +3,7 @@ import Container from "../Container/Container";
 const Projects = () => {
   return (
     <Container>
-      <div id="projects" className="mb-[80px]">
+      <div id="projects" className="mb-[80px] animate__animated animate__jackInTheBox">
         <h2 className="text-4xl lg:text-5xl font-semibold text-white text-center mb-4 lg:mb-6">
           Projects
         </h2>

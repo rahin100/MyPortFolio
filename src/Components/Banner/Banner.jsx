@@ -7,8 +7,9 @@ import Resume from "../../../public/Resume.pdf"
 const Banner = () => {
   return (
     <Container>
-      <div
-        className="hero min-h-[90vh] mb-[80px]"
+      <div 
+      
+        className="hero min-h-[90vh] mb-[80px] animate__animated animate__backInDown"
         style={{
           backgroundImage:
             "url(https://i.ibb.co/FJCMMqS/3-Sl-Soi-Y4-RKW9mhrn9-Kl-EA.jpg)",

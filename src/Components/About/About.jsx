@@ -11,7 +11,7 @@ const About = () => {
   };
   return (
     <Container>
-      <div id="about" className="bg-[#060606] mb-[80px]">
+      <div id="about" className="bg-[#060606] mb-[80px] animate__animated animate__fadeInDownBig">
         <h2 className="text-4xl lg:text-5xl font-semibold text-white text-center mb-4 lg:mb-3 pt-8">
           About Me
         </h2>

@@ -4,7 +4,7 @@ import Container from "../Container/Container";
 const Experience = () => {
   return (
     <Container>
-      <div id="experience" className="mb-[80px]">
+      <div id="experience" className="mb-[80px] animate__animated animate__flipInX">
         <h2 className="text-4xl lg:text-5xl font-semibold text-white text-center mb-4 lg:mb-8">
           Experience
         </h2>

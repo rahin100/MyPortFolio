@@ -4,7 +4,7 @@ import { FaBook } from "react-icons/fa6";
 const Education = () => {
   return (
     <Container>
-      <div id="education" className="mb-[80px]">
+      <div id="education" className="mb-[80px] animate__animated animate__flipInX">
         <h2 className="text-4xl lg:text-5xl font-semibold text-white text-center mb-4 lg:mb-4">
           Education
         </h2>
