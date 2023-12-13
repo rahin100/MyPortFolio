@@ -3,14 +3,14 @@ import Container from "../Container/Container";
 const Navbar = () => {
   return (
     <Container>
-      <div className="animate__animated animate__bounceInDown">
+      <div className="">
         <div className="navbar bg-[#060606]">
-          <div className="navbar-start">
+          <div className="lg:navbar-start">
             <div className="dropdown">
               <div
                 tabIndex={0}
                 role="button"
-                className="btn btn-ghost lg:hidden -order-1"
+                className="btn btn-ghost lg:hidden"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@ const Navbar = () => {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#100c08] rounded-box w-52"
+                className="menu menu-sm -translate-x-[158px] dropdown-content mt-2 z-[1] p-2  shadow bg-[#100c08] rounded-box w-52"
               >
                 <li className="text-[18px] text-white font-medium capitalize hover:scale-105 duration-150">
                   <a href="#home">Home</a>
@@ -54,7 +54,11 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <a className="lg:text-4xl text-white font-signature" href="#home">
+
+            <a
+              className="lg:text-4xl -order-1 text-white font-signature block w-[230px]"
+              href="#home"
+            >
               Rahin Islam
             </a>
           </div>

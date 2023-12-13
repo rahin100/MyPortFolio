@@ -4,7 +4,10 @@ import Container from "../Container/Container";
 const Experience = () => {
   return (
     <Container>
-      <div id="experience" className="mb-[80px] animate__animated animate__flipInX">
+      <div
+        id="experience"
+        className="mb-[80px] animate__animated animate__flipInX"
+      >
         <h2 className="text-4xl lg:text-5xl font-semibold text-white text-center mb-4 lg:mb-8">
           Experience
         </h2>
@@ -16,13 +19,16 @@ const Experience = () => {
               alt="Learning Experience"
             ></img>
           </div>
-          <div className="collapse collapse-plus w-full lg:w-[800px] md:w-[400px] bg-base-200 mt-4 absolute">
-            <input type="radio" name="my-accordion-3" />
+          <div
+            className="collapse collapse-plus w-full lg:w-[800px] md:w-[400px] bg-base-200 mt-4 absolute"
+            data-collapse-target="animated-collapse-1"
+          >
+            <input type="checkbox" id="my-accordion-3" />
             <div className="collapse-title text-xl font-medium text-white bg-[#060606]">
               Learning Experience (2023-Present)
             </div>
             <div className="collapse-content p-4">
-              <p className=" text-[16px] text-medium">
+              <p className="text-[16px] text-medium">
                 In the last few months, I've had a generally positive
                 experience. I've learned to appreciate the value of time. It has
                 been essential to work on projects regularly. When errors arise
